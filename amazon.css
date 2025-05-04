@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*styling the body*/
+body{
+    background: rgb(1, 1, 94);
+    color: white;
+   font-family: cursive;
+}
+/*header*/
+header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   box-shadow: 0 0 20px black;
+   font-size: 32;
+   height: 50px;
+   align-items: center;
+   padding-left: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.productcon{
+    width:200px;
+    height: 600px;
+    background-color: rgb(107, 56, 22);
+    display: flex;
+    flex-direction: column;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}
